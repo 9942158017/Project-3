@@ -1,0 +1,113 @@
+* {
+  font-family: 'Sans-Serif', 'Times New Roman', 'Trebuchet MS';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  position: relative;
+}
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 1rem;
+}
+
+.header {
+  background: #fff;
+  padding: 20px 10%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.875rem;
+}
+
+.navbar a {
+  color: black;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: orangered;
+}
+
+.header-img img {
+  width: 100%;
+  height: auto;
+}
+
+.about {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.about h1 {
+  color: orangered;
+}
+
+.courses {
+  padding: 60px 10%;
+}
+
+.course-item {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.course-item img {
+  width: 100%;
+  height: auto;
+}
+
+.course-item h2 {
+  margin: 10px 0;
+}
+
+.course-item h4 {
+  margin: 5px 0;
+}
+
+.rating {
+  font-size: 1.5rem;
+  color: gold;
+}
+
+button.but {
+  margin-top: 10px;
+  font-size: 1.25rem;
+  background-color: #90ee80;
+  border: none;
+  border-radius: 20%;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button.but:hover {
+  background-color: #76c7c0;
+}
+
+footer {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  font-size: 2rem;
+  margin: 0 15px;
+  transition: color 0.2s;
+}
+
+.footer a:hover {
+  color: orangered;
+}
